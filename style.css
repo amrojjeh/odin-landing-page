@@ -1,0 +1,61 @@
+/*
+dark background color (hero & footer): #1F2937
+
+Hero Main text:  48px extra-bold #F9FAF8
+
+Hero Secondary text: 18px #E5E7EB
+
+Header Logo Text: 24px #F9FAF8
+
+Button color, call to action bg color:  #3882F6
+
+information header text:  36px extra-bold #1F2937
+
+Quote section bg color:  #E5E7EB
+
+Quote text:  36px light italic #1F2937
+
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+}
+
+header {
+	background-color: #1F2937;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 4em;
+}
+
+nav {
+	width: 50%;
+	display: flex;
+	color: #F9FAF8;
+	justify-content: flex-start;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin-left: auto;
+	gap: 20px;
+	align-items: center;
+	font-size: 1.1em;
+}
+
+#logo {
+	text-decoration: none;
+	color: inherit;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+#hero {
+	height: 40vh;
+	background-color: #1F2937;
+}
