@@ -30,6 +30,31 @@ h2 {
 	font-weight: 900;
 }
 
+header {
+	height: 4em;
+}
+
+nav {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin-left: auto;
+	gap: 20px;
+	align-items: center;
+	font-size: 1.1em;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
 .darkbg {
 	background-color: #1F2937;
 }
@@ -65,28 +90,7 @@ h2 {
 	flex-direction: column;
 }
 
-header {
-	height: 4em;
-}
-
-nav {
-	width: 50%;
-	display: flex;
-	justify-content: flex-start;
-}
-
-nav ul {
-	list-style-type: none;
-	display: flex;
-	margin-left: auto;
-	gap: 20px;
-	align-items: center;
-	font-size: 1.1em;
-}
-
 #logo {
-	text-decoration: none;
-	color: inherit;
 	font-size: 24px;
 	font-weight: 900;
 }
