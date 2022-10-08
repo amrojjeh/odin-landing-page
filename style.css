@@ -24,11 +24,17 @@ Quote text:  36px light italic #1F2937
 	font-family: roboto;
 }
 
-header {
+.darkbg {
 	background-color: #1F2937;
+}
+
+.center {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;	
+}
+
+header {
 	height: 4em;
 }
 
@@ -58,4 +64,37 @@ nav ul {
 #hero {
 	height: 40vh;
 	background-color: #1F2937;
+	display: flex;
+	justify-content: center;
+	color: #F9FAF8;
+	align-items: center;
+	width: 50%;
+}
+
+#hero h1 {
+	font-weight: 900;
+	font-size: 48px;
+}
+
+#hero img {
+	max-height: 80%;
+	margin-left: 20px;
+}
+
+#hero p {
+	font-size: 18px;
+	color: #E5E7EB;
+	margin: 10px 0;
+}
+
+#hero button {
+	margin-top: 5px;
+	background-color: #3882F6;
+	width: 130px;
+	font-size: 18px;
+	font-weight: 900;
+	border: none;
+	height: 2em;
+	color: inherit;
+	border-radius: 5px;
 }
