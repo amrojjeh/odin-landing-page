@@ -28,10 +28,18 @@ Quote text:  36px light italic #1F2937
 	background-color: #1F2937;
 }
 
+.whitebg {
+	background-color: white;
+}
+
 .center {
 	display: flex;
 	align-items: center;
 	justify-content: center;	
+}
+
+.vertical {
+	flex-direction: column;
 }
 
 header {
@@ -98,3 +106,37 @@ nav ul {
 	color: inherit;
 	border-radius: 5px;
 }
+
+#random {
+	margin-top: 3em;
+	height: 40vh;
+}
+
+#random h2 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+#random > div {
+	display: flex;
+	margin: 4em;
+	gap: 4em;
+}
+
+#random p {
+	width: 200px;
+	text-align: center;
+	font-size: 18px;
+	opacity: .5;
+}
+
+#random img {
+	max-width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: 8px solid #3882F6;
+	border-radius: 10px;
+}
+
