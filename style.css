@@ -30,6 +30,12 @@ h2 {
 	font-weight: 900;
 }
 
+blockquote {
+	font-size: 36px;
+	font-weight: 200;
+	font-style: italic;
+}
+
 header {
 	height: 4em;
 }
@@ -79,6 +85,9 @@ a {
 	color: #3882F6;
 }
 
+.quotebg {
+	background-color: #E5E7EB;
+}
 
 .center {
 	display: flex;
@@ -133,6 +142,7 @@ a {
 #random {
 	margin-top: 3em;
 	height: 40vh;
+	margin-bottom: 3em;
 }
 
 #random > div {
@@ -151,8 +161,18 @@ a {
 #random img {
 	max-width: 200px;
 	height: 200px;
-	object-fit: cover;
 	border: 5px solid #3882F6;
 	border-radius: 10px;
 }
 
+#quote {
+	height: 40vh;
+	width: 50%;
+	gap: 10px;
+	flex-direction: column;
+}
+
+#quote p {
+	align-self: flex-end;
+	font-weight: 500;
+}
