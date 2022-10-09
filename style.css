@@ -95,6 +95,10 @@ a {
 	justify-content: center;	
 }
 
+.big {
+	height: 40vh;
+}
+
 .vertical {
 	flex-direction: column;
 }
@@ -128,14 +132,15 @@ a {
 	margin: 10px 0;
 }
 
-#hero button {
+button {
 	margin-top: 5px;
 	width: 130px;
 	font-size: 18px;
 	font-weight: 900;
 	border: none;
 	height: 2em;
-	color: inherit;
+	color: #F9FAF8;
+	background-color: #3882F6;
 	border-radius: 5px;
 }
 
@@ -175,4 +180,21 @@ a {
 #quote p {
 	align-self: flex-end;
 	font-weight: 500;
+}
+
+#action {
+	height: 50%;
+	border-radius: 15px;
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#action button {
+	border: 2px white solid;
+}
+
+
+footer {
+	height: 4em;
 }
